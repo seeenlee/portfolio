@@ -2,7 +2,6 @@ import Link from "next/link";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 import Image from "next/image";
-import { ThemeToggle } from "./ThemeToggle";
 
 const Header = () => {
   return (
@@ -12,15 +11,13 @@ const Header = () => {
             <Link href={"/"}>
                 <Image src="/assets/logo.jpg" width={80} height={80} className="flex object-cover" alt="Sean's Profile" />
             </Link>
-            {/* desktop nav & theme toggle */}
+            {/* desktop nav */}
             <div className="hidden xl:flex items-center gap-8">
                 <Nav/>
-                <ThemeToggle />
             </div>
 
-            {/* mobile nav & theme toggle */}
+            {/* mobile nav */}
             <div className="xl:hidden flex items-center gap-4">
-                <ThemeToggle />
                 <MobileNav/>
             </div>
             
