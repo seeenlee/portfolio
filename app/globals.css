@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+@layer base {
+  body {
+    @apply font-primary bg-primary text-gray-700 leading-loose;
+  }
+  /* Add dark mode styles */
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+  .text-outline {
+    -webkit-text-stroke: 1px #616161;
+  }
+  /* Add dark mode styles */
+  .dark .text-outline {
+    -webkit-text-stroke: 1px #A0A0A0; /* Lighter outline for dark mode */
+  }
+  
+  .text-outline-hover {
+    -webkit-text-stroke: 1px #005A9C;
+  }
+   /* Add dark mode styles */
+  .dark .text-outline-hover {
+    -webkit-text-stroke: 1px #3B82F6; /* Adjust hover color for dark mode if needed */
+  }
+  .text-highlight {
+    color: #005A9C;
+    font-weight: bold;
+  }
+  /* Add dark mode styles */
+  .dark .text-highlight {
+    color: #3B82F6; /* Lighter highlight for dark mode */
+  }
+  
+}
+
