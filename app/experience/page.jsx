@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import React, { useState, useEffect } from "react";
-import { SiPython, SiRedis, SiAmazonaws, SiAmazondynamodb, SiAmazonelasticache, SiFastapi, SiDocker, SiPytest, SiSqlite, SiC, SiCplusplus, SiLinux } from "react-icons/si";
+import { SiPython, SiRedis, SiAmazonaws, SiAmazondynamodb, SiAmazonelasticache, SiFastapi, SiDocker, SiPytest, SiSqlite, SiC, SiCplusplus, SiLinux, SiPandas, SiPlotly} from "react-icons/si";
 const experiences = [
   {
     num: "01",
@@ -29,7 +29,7 @@ const experiences = [
     title: "Maxar Technologies",
     description: (
       <>
-        Designed and developed a RESTful API using Python to enhance data access for downstream teams
+        Developed a REST API to provide telemetry data access to downstream teams
       </>
     ),
     skills: [
@@ -55,6 +55,23 @@ const experiences = [
       { icon: <SiC />, name: "C" },
       { icon: <SiCplusplus />, name: "C++" },
       { icon: <SiLinux />, name: "Linux" },
+    ],
+    timeline: "January 2024 - Present",
+    location: "West Lafayette, IN",
+  },
+  {
+    num: "04",
+    category: "Data Science Intern",
+    title: "American First Finance",
+    description: (
+      <>
+        Analyzed market performance by metropolitan statistical areas
+      </>
+    ),
+    skills: [
+      { icon: <SiPython />, name: "Python" },
+      { icon: <SiPandas />, name: "Pandas" },
+      { icon: <SiPlotly />, name: "Plotly" },
     ],
     timeline: "January 2024 - Present",
     location: "West Lafayette, IN",

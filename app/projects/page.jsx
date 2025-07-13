@@ -12,7 +12,7 @@ const projects = [
     title: 'Flight Prediction',
     description: (
       <>
-        Researched methods for flight prediction using a combination of machine learning methods such as feature engineering and LSTM models.
+        Implemented a flight destination prediction model that achived a prediction accuracy of 87%!
       </>
     ),
     href: 'https://datamine.purdue.edu/sandia-national-labs/',
@@ -29,7 +29,7 @@ const projects = [
     title: 'Paxos',
     description: (
       <>
-        Implemented the Paxos consensus algorithm for distributed systems in Java ensuring robust and efficient agreement across nodes
+        Built a fault-tolerant, fully-replicated key-value store that implements the Paxos consensus algorithm
       </>
     ),
     href: 'https://github.com/emichael/dslabs',
